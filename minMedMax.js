@@ -1,7 +1,6 @@
  const { template } = require('@babel/core')
 
 function minMedMax(n1, n2, n3) {
-
   let array = [n1, n2, n3], swap, com = false,swaped ;
   while (!com) {
     swaped = 0;
@@ -17,8 +16,8 @@ function minMedMax(n1, n2, n3) {
       }
     };
   };
-    return {array};
-//dada
+    return {min: array[0], mid: array[1], max: array[2]}
+
 };
 
 console.log(minMedMax(124, 32, 7));
