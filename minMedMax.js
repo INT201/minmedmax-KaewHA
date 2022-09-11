@@ -20,7 +20,7 @@ function minMedMax(n1, n2, n3) {
     };
   };
     return {max: array[2],med: array[1],min: array[0]};
-
+//dada
 };
 
 
